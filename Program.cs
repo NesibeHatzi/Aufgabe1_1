@@ -27,7 +27,7 @@ namespace Aufgabe1_1
         public static String getCubeInfo(double durchmesse)
         {
             double d = durchmesse;
-                Console.WriteLine("Würfel: " + " A = " + getCubeSurface(d) + " | " + " V = " + getCubeVolume(d) );
+                return "Würfel: " + " A = " + getCubeSurface(d) + " | " + " V = " + getCubeVolume(d) ;
         }
 
         public static double getBulletSurface(double durchmesse)
@@ -46,7 +46,7 @@ namespace Aufgabe1_1
         public static String getBulletInfo(double durchmesse)
         {
            double d = durchmesse;
-                Console.WriteLine("Kugel: " + " A = " + getBulletSurface(d) + " | " + " V = " + getBulletVolume(d) );
+                return "Kugel: " + " A = " + getBulletSurface(d) + " | " + " V = " + getBulletVolume(d) ;
         }
 
         public static double getOctahedronSurface(double durchmesse)
@@ -67,7 +67,7 @@ namespace Aufgabe1_1
         {
            double d = durchmesse;
            
-             Console.WriteLine(" Oktaeder: " + " A = " + getOctahedronSurface(d) + " | " + " V = " + getOctahedronVolume(d) );
+            return " Oktaeder: " + " A = " + getOctahedronSurface(d) + " | " + " V = " + getOctahedronVolume(d) ;
         }
         static void Main(char [] args)
         {
